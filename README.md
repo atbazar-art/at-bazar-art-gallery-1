@@ -1,1 +1,3 @@
-# at-bazar-art-gallery-1
+# AT Bazar Art Gallery
+
+Upload to GitHub Pages and customize.
