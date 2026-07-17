@@ -1,30 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>AT Bazar Art Gallery</title>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header class="top">
-  <div>
-    <h1>AT Bazar Art Gallery</h1>
-    <p>Premium Design Collection</p>
-  </div>
-  <input id="search" placeholder="Search design...">
+<header class="hero">
+
+    <div class="hero-content">
+
+        <h1>AT Bazar Art Gallery</h1>
+
+        <p>
+            Discover Premium & Free Graphic Designs for
+            Business, Social Media and Printing.
+        </p>
+
+        <div class="hero-buttons">
+
+            <button class="primary-btn">
+                Explore Designs
+            </button>
+
+            <button class="secondary-btn">
+                Categories
+            </button>
+
+        </div>
+
+    </div>
+
+    <div class="hero-search">
+
+        <input
+            type="text"
+            id="search"
+            placeholder="Search designs..."
+        >
+
+    </div>
+
 </header>
-
-<div class="chips">
-<button data-cat="All">All</button>
-<button data-cat="Jersey">Jersey</button>
-<button data-cat="Banner">Banner</button>
-<button data-cat="Logo">Logo</button>
-<button data-cat="Poster">Poster</button>
-</div>
-
-<main id="gallery"></main>
-
-<script src="script.js"></script>
-</body>
-</html>
